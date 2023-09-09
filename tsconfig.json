@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "baseUrl": "./",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "pages/store.tsx", "theme/tlStyles/layerStyles.jsx", "theme/tlStyles/textStyles.jsx", "theme/tlStyles/tl-mode.jsx", "theme/index.jsx", "pages/index.jsx", "theme/foundations/colors.jsx", "theme/foundations/fonts.jsx", "components/layout/sidebar/index.jsx", "components/layout/sidebar/collapsed-item.jsx", "components/layout/index.jsx", "components/layout/sidebar/mobile.jsx", "pages/_app.jsx", "components/page-header.jsx"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
